@@ -14,5 +14,5 @@ do {
   const final = +prompt("finalize notunu giriniz");
   ort = (vize * 40) / 100 + (final * 60) / 100;
   console.log(ort);
-  islem = prompt("devam etmek istermisiniz");
+  islem = prompt("devam etmek istermisiniz(e/E");
 } while (islem === "e" || islem === "E");
